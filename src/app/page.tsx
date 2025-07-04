@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import { Container } from "postcss";
 import Presentations from "../presentation";
+import ProjectsGrid from "@/components/ProjectsGrid";
 
 export default function Home() {
   return (
@@ -10,11 +11,11 @@ export default function Home() {
 
       <Header />
 
-      <Presentations />
-
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        This is a portfolio
+        <Presentations />
+        <ProjectsGrid />
       </main>
+
       {/* </div> */}
     </div>
   );
