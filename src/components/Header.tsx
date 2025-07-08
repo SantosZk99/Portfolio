@@ -11,7 +11,7 @@ interface Props {
 
 const Header: React.FC<Props> = ({ exampleProp }) => {
   return (
-    <div className="border flex justify-between w-full max-w-screen-xl p-2">
+    <div className="flex justify-between w-full max-w-screen-xl p-2">
       {/* Picture */}
       <div className="flex items-center gap-4">
         <div className="bg-white h-[50px] w-[50px]"></div>

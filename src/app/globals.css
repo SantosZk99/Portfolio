@@ -12,6 +12,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.custom-truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 👈 how many lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
