@@ -8,24 +8,20 @@ interface Props {
 const ProjectsGrid: React.FC<Props> = ({ exampleProp }) => {
   return (
     <div className="gap-1 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full">
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
-      <ProjectsGridItem />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
+      <ProjectsGridItem tileTitle="test" />
     </div>
   );
 };
