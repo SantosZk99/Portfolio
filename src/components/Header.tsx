@@ -5,11 +5,9 @@ import React from "react";
 import logoGithub from "../../public/logos/github-mark-white.png";
 import logoLeetcode from "../../public/logos/LeetCode_logo_black.png";
 
-interface Props {
-  exampleProp?: string;
-}
+type Props = Record<string, unknown>;
 
-const Header: React.FC<Props> = ({ exampleProp }) => {
+const Header: React.FC<Props> = ({}) => {
   return (
     <div className="flex justify-between w-full max-w-screen-xl p-2">
       {/* Picture */}

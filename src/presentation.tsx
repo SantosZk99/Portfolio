@@ -1,10 +1,8 @@
 import React from "react";
 
-interface Props {
-  exampleProp?: string;
-}
+type Props = Record<string, unknown>;
 
-const Presentations: React.FC<Props> = ({ exampleProp }) => {
+const Presentations: React.FC<Props> = ({}) => {
   return (
     <div className="p-1 flex justify-center w-full mt-5 sm:mt-10">
       <div className="max-w-screen-xl gap-[2px] grid-cols-1 lg:grid-cols-2 grid w-full ">

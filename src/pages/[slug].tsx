@@ -1,11 +1,9 @@
 import { useRouter } from "next/router";
 import React from "react";
 
-interface Props {
-  exampleProp?: string;
-}
+type Props = Record<string, unknown>;
 
-const ProjectDynamicPage: React.FC<Props> = ({ exampleProp }) => {
+const ProjectDynamicPage: React.FC<Props> = ({}) => {
   const router = useRouter();
   const { slug } = router.query;
 

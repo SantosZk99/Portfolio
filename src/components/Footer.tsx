@@ -1,10 +1,8 @@
 import React from "react";
 
-interface Props {
-  exampleProp?: string;
-}
+type Props = Record<string, unknown>;
 
-const Footer: React.FC<Props> = ({ exampleProp }) => {
+const Footer: React.FC<Props> = ({}) => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="mt-10 w-full p-2">

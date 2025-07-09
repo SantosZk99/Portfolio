@@ -1,6 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Header from "../components/Header";
-import { Container } from "postcss";
+// import { Container } from "postcss";
 import Presentations from "../presentation";
 import ProjectsGrid from "@/components/ProjectsGrid";
 import Footer from "@/components/Footer";
